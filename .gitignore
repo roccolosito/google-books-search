@@ -3,3 +3,4 @@ package-lock.json
 .env
 key.js
 config
+/node_modules

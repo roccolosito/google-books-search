@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
-// import Search from './pages/Search';
-// import Saved from './pages/Saved';
+import React from "react";
+import "./App.css";
+import API from "./utils/API";
+import Header from "./components/Header/Header";
+import SearchForm from "./components/Search/SearchForm";
+import Results from "./components/Search/Results";
+
 
 function App() {
-  return (
-    <p>HI this is a test</p>
-
+  return(
+  <div>
+      <Header />
+      <SearchForm />
+      <Results />
+    </div>
   );
 }
 
