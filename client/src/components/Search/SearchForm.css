@@ -1,0 +1,10 @@
+form {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid lightslategray;
+    margin: 0px 40px 20px 40px;
+    align-content: center;
+};
+
+input {
+    width: 200%;
+}

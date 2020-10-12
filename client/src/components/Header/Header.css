@@ -1,0 +1,12 @@
+.mainCard {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid lightslategray;
+    text-align: center;
+    margin: 0px 0px 55px 0px;
+    height: 200px;
+};
+
+.nav {
+    border: 1px solid lightslategray;
+    background-color: lightsteelblue;
+};
