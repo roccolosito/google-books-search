@@ -4,3 +4,8 @@ package-lock.json
 key.js
 config
 /node_modules
+node_modules
+./client/node_modules
+package-lock.json
+./client/package-lock.json
+./client/src/utils

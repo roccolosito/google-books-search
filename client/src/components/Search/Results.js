@@ -2,15 +2,15 @@ import React from "react";
 import Book from "./Book.js";
 import "./Results.css";
 
+//Nest Books
+// This is the List of each book components. 
+
 function Results(props) {
   return (
-    <div className="text-center">
-      <h3>title: {props.title}</h3>
-      <h3>author: {props.author}</h3>
-      <h3>description: {props.description}</h3>
-      <h3>image: {props.image}</h3>
-      <h3>link: {props.link}</h3>
+    <div className="book">
+      < Book />
     </div>
+
   );
 }
 
