@@ -1,4 +1,15 @@
-// const { default: Header } = require("../components/Header/Header");
+import React from "react";
+import Header from "../components/Header/Header";
+import Saved from "../components/Saved/Saved";
 
-// Header
-// Saved Component
+// Page for displaying the user's saved books.
+function SavedPage() {
+    return (
+        <div>
+            <Header />
+            <Saved />
+        </div>
+    )
+}
+
+export default SavedPage;
