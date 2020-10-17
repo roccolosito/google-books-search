@@ -5,7 +5,6 @@ keys.js
 config
 ./node_modules
 ./client/node_modules
-package-lock.json
 ./client/package-lock.json
 ./client/src/utils
 
