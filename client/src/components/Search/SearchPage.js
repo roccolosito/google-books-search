@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./SearchPage.css";
 import Results from "./Results.js"
-import API from "../../utils/googleBooks";
+// import API from "../../utils/googleBooks";
 import SearchArea from "../Search/SearchArea"
 import axios from "axios";
 import request from "superagent";

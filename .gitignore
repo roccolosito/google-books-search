@@ -1,7 +1,7 @@
 node_modules
 package-lock.json
 .env
-key.js
+keys.js
 config
 ./node_modules
 ./client/node_modules
