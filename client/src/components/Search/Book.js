@@ -28,7 +28,7 @@ function Book(props) {
           <h3>Author: {props.author}</h3>
           <h3>Description: {props.description}</h3>
         </Card.Text>
-        <Button variant="dark" onClick={handleClick} href={props.volumeInfo.infoLink}>View</Button>
+        <Button variant="dark">View</Button>
         <Button variant="dark">Save</Button>
       </Card.Body >
     </Card >

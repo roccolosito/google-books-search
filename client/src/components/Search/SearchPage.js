@@ -3,9 +3,9 @@ import "./SearchPage.css";
 import Results from "./Results.js"
 // import API from "../../utils/googleBooks";
 import SearchArea from "../Search/SearchArea"
-import axios from "axios";
+// import axios from "axios";
 import request from "superagent";
-import e from "express";
+// import e from "express";
 
 
 class SearchPage extends Component {

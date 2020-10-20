@@ -15,28 +15,28 @@ const SearchArea = (props) => {
 
 export default SearchArea;
 
-function SearchArea() {
-    return (
-        <div className="searchArea">
-            <form>
-                <div className="form-group">
-                    <label htmlFor="search">Search:</label>
-                    <input
-                        onChange={props.handleInputChange}
-                        value={props.value}
-                        name="search"
-                        type="text"
-                        className="form-control"
-                        placeholder="Search For a Book"
-                        id="search"
-                    />
-                    <br />
-                    <button onClick={props.handleFormSubmit} className="btn btn-primary">
-                        Search
-        </button>
-                </div>
-            </form>
-        </div>
+// function SearchArea() {
+//     return (
+//         <div className="searchArea">
+//             <form>
+//                 <div className="form-group">
+//                     <label htmlFor="search">Search:</label>
+//                     <input
+//                         onChange={props.handleInputChange}
+//                         value={props.value}
+//                         name="search"
+//                         type="text"
+//                         className="form-control"
+//                         placeholder="Search For a Book"
+//                         id="search"
+//                     />
+//                     <br />
+//                     <button onClick={props.handleFormSubmit} className="btn btn-primary">
+//                         Search
+//         </button>
+//                 </div>
+//             </form>
+//         </div>
 
-    );
-}
+//     );
+// }
