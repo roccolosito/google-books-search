@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
-// import API from "./utils/API";
+// import "./App.css";
 import Header from "./components/Header/Header";
 import SearchPage from "./pages/Search";
 import SavedPage from "./pages/Saved";
